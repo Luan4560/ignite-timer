@@ -20,37 +20,49 @@ export const History = () => {
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há dois meses</td>
-              <td>Concluído</td>
+              <td>
+                <SC.Status statusColor="green">Concluído</SC.Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há dois meses</td>
-              <td>Concluído</td>
+              <td>
+                <SC.Status statusColor="green">Concluído</SC.Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há dois meses</td>
-              <td>Concluído</td>
+              <td>
+                <SC.Status statusColor="green">Concluído</SC.Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há dois meses</td>
-              <td>Concluído</td>
+              <td>
+                <SC.Status statusColor="green">Concluído</SC.Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há dois meses</td>
-              <td>Concluído</td>
+              <td>
+                <SC.Status statusColor="yellow">Em andamento</SC.Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
               <td>Há dois meses</td>
-              <td>Concluído</td>
+              <td>
+                <SC.Status statusColor="red">Interrompido</SC.Status>
+              </td>
             </tr>
           </tbody>
         </table>
