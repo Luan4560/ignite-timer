@@ -11,7 +11,6 @@ export const HistoryContainer = styled.main`
     font-size: 1.5rem;
     color: ${props => props.theme["gray-100"]};
   }
-
 `
 
 export const HistoryList = styled.div`
@@ -61,7 +60,6 @@ export const HistoryList = styled.div`
     }
   }
 `
-
 const STATUS_COLORS = {
   yellow: 'yellow-500',
   green: 'green-500',
