@@ -3,16 +3,17 @@ import { Router } from "./Router";
 import { GlobalStyle } from "./styles/global";
 import { defaultTheme } from "./styles/theme/default";
 import { ThemeProvider } from "styled-components";
+import { CyclesContextProvider } from "./context/CyclesContext";
 
 export const App = () => {
   return (
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
-        <Router />
+        <CyclesContextProvider>
+          <Router />
+        </CyclesContextProvider>
       </BrowserRouter>
       <GlobalStyle />
     </ThemeProvider>
   );
 };
-
-export default App;
